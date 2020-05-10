@@ -33,14 +33,17 @@ body {
   font-family: "Rubik", sans-serif;
   font-size: 14px;
   font-weight: 400;
+  line-height: 1.4rem;
 }
 
 .zbozi {
   display: flex;
   flex-direction: row;
   width: 670px;
+  height: 440px;
   margin: 15vh auto;
   border-radius: 10px;
+  box-shadow: 1px 1px 10px #959595;
 }
 
 .vizual {
@@ -49,6 +52,33 @@ body {
   border-top-left-radius: 10px;
   width: 50%;
   padding: 30px;
+  color: #fff;
+}
+
+.cenovka {
+  position: relative;
+  top: -70px;
+  text-align: right;
+}
+
+.slogan {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cena {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.zaruka {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.bota {
+  position: relative;
+  left: -120px;
 }
 
 .detaily {
@@ -56,4 +86,5 @@ body {
   border-top-right-radius: 10px;
   width: 50%;
   padding: 30px;
+  background-color: #fff;
 }
