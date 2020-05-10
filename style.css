@@ -88,3 +88,51 @@ body {
   padding: 30px;
   background-color: #fff;
 }
+
+.nazev {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.produkt {
+  color: #959595;
+}
+
+.popis {
+  border-bottom: 1px solid #06d7c1;
+  padding: 15px 0;
+}
+
+.velikosti li {
+  list-style: none;
+  display: inline;
+  padding: 5px;
+  margin: 6px;
+}
+
+ul.velikosti {
+  padding-left: 0;
+}
+
+li.vybrana {
+  border: 1px solid #f15f42;
+  border-radius: 50%;
+  color: #f15f42;
+}
+
+.akce {
+  position: relative;
+  top: 35px;
+}
+
+.tlacitko {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #f15f42;
+  border-radius: 10px;
+  padding: 12px;
+  width: 50%;
+}
